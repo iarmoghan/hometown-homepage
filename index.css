@@ -27,7 +27,7 @@ body {
     margin-left: auto;
     margin-bottom: 11px;
     padding: 3px 12px 5px 12px;
-    background-color: #1D3557;
+    background-color: #FFAFCC;
     font-family: Arial;
     font-size: 32px;
     font-weight: 700;
@@ -44,7 +44,7 @@ body {
     margin-left: auto;
     margin-top: 0px;
     padding: 5px 29px 8px 28px;
-    background-color: #457B9D;
+    background-color: #FFC8DD;
     width: 412px;
     height: 86px;
     border-radius: 10px;
@@ -57,17 +57,19 @@ body {
 #activities-section{
 
     text-align: center;
-    background-color: #F1FAEE;
+    background-color: #353839;
     padding: 39px 0px 38px 0px;
 }
 
 #activities-title{
-    color:#1D3557;
+    color:#FFAFCC;
     font-family: Arial;
     font-size: 24px;
     font-weight: 700;
     line-height: 27.6px;
     margin-bottom: 54px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -89,7 +91,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 18.4px;
-    color: #1D3557;
+    color: #FFAFCC;
 }
 
 .actitvities-subdesc{
@@ -97,7 +99,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 18.4px;
-    color: #1D3557;
+    color: #FFAFCC;
 }
 
 
@@ -110,7 +112,7 @@ body {
     padding: 23px 11px 23px 13px;
     justify-content: center;
     border-radius: 10px;
-    background: #A8DADC;
+    background: #CDB4DB;
 }
 
 #card-title{
