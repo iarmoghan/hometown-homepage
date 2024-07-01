@@ -11,27 +11,22 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
-    padding: 0px;
 }
 
-img {
-    width: 100px;
-}
 
-.hero-section{
+#hero-section{
     background-image: url(images/dublin.jpg);
     background-size: cover;
-    background-position: top;
-    margin: 0px auto 119px auto;
-    display: block;
-    margin: 0px;
-
+    padding: 119px 0px 119px 0px;
 }
 
 
-.hero-title{
+#hero-title{
     display: block;
-    padding: 12px 3px 12px 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 11px;
+    padding: 3px 12px 5px 12px;
     background-color: #1D3557;
     font-family: Arial;
     font-size: 32px;
@@ -40,24 +35,117 @@ img {
     width: 225px;
     height: 42px;
     border-radius: 10px;
-    color: #FFFFFF;
 }
 
 
-.hero-desc{
+#hero-desc{
     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
     padding: 5px 29px 8px 28px;
     background-color: #457B9D;
     width: 412px;
     height: 86px;
     border-radius: 10px;
-    color:#FFFFFF;
     font-family : Arial;
     font-size: 18.72px;
     font-weight: 700;
     line-height: 21.53px;
+}
+
+#activities-section{
+
+    text-align: center;
+    background-color: #F1FAEE;
+    padding: 39px 0px 38px 0px;
+}
+
+#activities-title{
+    color:#1D3557;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.6px;
+    margin-bottom: 54px;
+
+}
+
+
+#image-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.image-activities{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.actitvities-subtitle{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.4px;
+    color: #1D3557;
+}
+
+.actitvities-subdesc{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    color: #1D3557;
+}
+
+
+#card{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    border-radius: 10px;
+    padding: 23px 11px 23px 13px;
+    justify-content: center;
+    border-radius: 10px;
+    background: #A8DADC;
+}
+
+#card-title{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: center;
+}
+
+#card-desc{
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+}
+
+#card-name{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.4px;
     text-align: center;
 
 }
+
+#card-img{
+    width: 248.67px;
+    height: 248.67px;
+    border-radius: 10px;
+}
+
+
+
 
 
